@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-21T17:27:32 IST" name="Ubuy" finished-at="2020-08-21T17:32:04 IST" duration-ms="272549">
+    <groups>
+    </groups>
+    <test started-at="2020-08-21T17:27:32 IST" name="Test in chrome" finished-at="2020-08-21T17:29:07 IST" duration-ms="95816">
+      <class name="project.Ubuy">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:project.Ubuy@1fe20588]" started-at="2020-08-21T17:27:32 IST" name="openBrowser" finished-at="2020-08-21T17:27:51 IST" duration-ms="19251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:project.Ubuy@1fe20588]" started-at="2020-08-21T17:27:51 IST" name="openWebsite" finished-at="2020-08-21T17:28:00 IST" duration-ms="9293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ubuy.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="searchItem()[pri:0, instance:project.Ubuy@1fe20588]" started-at="2020-08-21T17:28:00 IST" name="searchItem" finished-at="2020-08-21T17:28:07 IST" duration-ms="6457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="addToCart()[pri:1, instance:project.Ubuy@1fe20588]" started-at="2020-08-21T17:28:07 IST" name="addToCart" finished-at="2020-08-21T17:29:05 IST" duration-ms="57914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeBrowser(java.lang.String)[pri:0, instance:project.Ubuy@1fe20588]" started-at="2020-08-21T17:29:05 IST" name="closeBrowser" finished-at="2020-08-21T17:29:07 IST" duration-ms="2481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- project.Ubuy -->
+    </test> <!-- Test in chrome -->
+    <test started-at="2020-08-21T17:29:08 IST" name="Test in firefox" finished-at="2020-08-21T17:32:04 IST" duration-ms="175695">
+      <class name="project.Ubuy">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:project.Ubuy@4313f5bc]" started-at="2020-08-21T17:29:08 IST" name="openBrowser" finished-at="2020-08-21T17:29:48 IST" duration-ms="39615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:project.Ubuy@4313f5bc]" started-at="2020-08-21T17:29:48 IST" name="openWebsite" finished-at="2020-08-21T17:30:01 IST" duration-ms="12555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ubuy.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="searchItem()[pri:0, instance:project.Ubuy@4313f5bc]" started-at="2020-08-21T17:30:01 IST" name="searchItem" finished-at="2020-08-21T17:30:03 IST" duration-ms="2727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method signature="addToCart()[pri:1, instance:project.Ubuy@4313f5bc]" started-at="2020-08-21T17:30:03 IST" name="addToCart" finished-at="2020-08-21T17:31:04 IST" duration-ms="60375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeBrowser(java.lang.String)[pri:0, instance:project.Ubuy@4313f5bc]" started-at="2020-08-21T17:31:04 IST" name="closeBrowser" finished-at="2020-08-21T17:32:04 IST" duration-ms="60206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- project.Ubuy -->
+    </test> <!-- Test in firefox -->
+  </suite> <!-- Ubuy -->
+</testng-results>
